@@ -1,0 +1,44 @@
+/*
+    Feuille de style principale de Caviste
+
+    Created on : 08-févr.-2020, 12:22:54
+    Author     : ceruth
+*/
+.container {
+    border: 1px solid gray;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px darkred;
+    border-radius: 15px;
+}
+
+body {
+    background-color: silver;
+}
+
+a.active {
+    color: darkred;
+}
+
+a.active::before {
+    content: "\61e  ";
+}
+
+header a#logo, header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header + div {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid silver;
+    margin: 15px 0;
+}
+
